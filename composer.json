@@ -1,0 +1,24 @@
+{
+  "name": "soldi/elemental",
+  "type": "library",
+  "description": "Basic MVC framework for small projects with login authentication",
+  "keywords": ["mvc","user", "login", "homepage"],
+  "homepage": "https://github.com/annasoldih/pkg_elemental",
+  "license": "MIT",
+  "authors": [
+      {
+          "name": "Anna Hamann",
+          "email": "anna@soldi.dev.br",
+          "homepage": "http://soldi.dev.br",
+          "role": "Developer"
+      }
+  ],
+  "require": {
+      "php": ">=8.0.0"
+  },
+  "autoload": {
+      "psr-0": {
+          "Elemental": "src"
+      }
+  }
+}
